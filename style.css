@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ------- header style start ----------- */
+.fst-container {
+    background-color: FF900E;
+    margin: 50px 240px 45px 240px;
+}
+
+/* -------- nav style start ---------- */
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-div ul {
+    display: flex;
+
+}
+
+.menu-div ul li {
+    list-style: none;
+    margin-right: 30px;
+
+}
+
+.menu-div ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    color: #424242;
+}
+
+/* -------- nav style end ---------- */
+
+/*--------------- header articel style start --------------*/
+.header-arteicel-container {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.arteicel-div h1 {
+    font-size: 64px;
+}
+
+.arteicel-div p {
+    font-size: 12px;
+    color: #131313;
+    margin: 25px;
+}
+
+.Explore-btn {
+    width: 180px;
+    height: 64px;
+    margin-bottom: 25px;
+    background-color: #FF900E;
+    color: aliceblue;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.header-img {
+    height: 700px;
+}
+
+/*--------------- header articel style end --------------*/
