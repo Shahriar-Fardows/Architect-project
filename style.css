@@ -182,7 +182,7 @@
 
 /* ---------------section-3 style--------------  */
 .facts {
-    margin: 30px 240px  70px 240px;
+    margin: 30px 240px 70px 240px;
 }
 
 .facts-title {
@@ -210,21 +210,117 @@
     padding: 40px;
     transition: 1s;
 }
-.fact:hover{
+
+.fact:hover {
     background-color: #FF900E;
     animation: loadingWave 4s linear;
 }
+
 @keyframes loadingWave {
-    10%{
-        background-color:bisque;
+    10% {
+        background-color: bisque;
     }
-    50%{
+
+    50% {
         background-color: rgb(235, 204, 31);
     }
-    100%{
+
+    100% {
         background-color: #FF900E;
     }
 }
+
+/* ---------------section-4 style--------------  */
+.sponsors {
+    margin: 45px 240px 45px 240px;
+}
+
+.spn-titles {
+    text-align: center;
+    margin: 40px;
+}
+
+.spn-title {
+    margin: 15px;
+    font-size: 45px;
+    color: #131313;
+
+}
+
+.spn-des {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.spn-logo {
+    display: flex;
+    justify-content: space-between;
+}
+.spn-logo img {
+   display: flex;
+   justify-content: space-between;
+    
+}
+
+
+/* contact section styles */
+
+.contact {
+    margin-top: 150px;
+    padding: 0px 228px;
+
+}
+.spn-title{
+    text-align: center;
+}
+form{
+    background-color: #FFF4E7;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+form label{
+    font-size: 30px;
+    color: #383636;
+}
+form input{
+    width: 80%;
+    padding: 18px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+form textarea{
+    width: 80%;
+    border: none;
+    border-radius: 8px;
+}
+.btn-common{
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: #FF900E;
+    border: 2px solid #FF900E;
+}
+
+/* -------------footer------------- */
+footer {
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    margin: 130px 215px 216px 215px;
+}
+
+.foot-info {
+    padding: 22px 0px;
+    text-align: center;
+}
+.heid{
+    display: none;
+}
+
+
 @media only screen and (max-width: 688px) {
 
     /* ------- header style start ----------- */
@@ -305,17 +401,22 @@
         left: 80px;
 
     }
-     /* ------- section-3 style start ----------- */
-    .facts{
+
+
+
+    /* ------- section-3 style start ----------- */
+    .facts {
         margin: 0px;
         text-align: center;
     }
+
     .facts-item {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
         flex-wrap: nowrap;
     }
+
     .fact {
         text-align: center;
         border: 1px dashed #FF900E;
@@ -323,6 +424,24 @@
         padding: 40px;
         transition: 1s;
     }
-    
-    
+
+    /* ------- section-3 style start ----------- */
+    .sponsors {
+        margin: 0;
+    }
+    .spn-logo{
+        display: inline-block;
+        
+    }
+    #spn{
+        margin: 0px;
+        height: 100px;
+        width: 100%;
+    }
+   .contact{
+    padding: 0;
+   }
+footer{
+    margin: 0px ;
+}
 }
