@@ -7,6 +7,17 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.Explore-btn {
+    width: 180px;
+    height: 64px;
+    margin-bottom: 25px;
+    background-color: #FF900E;
+    color: aliceblue;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 10px;
+}
+
 /* ------- header style start ----------- */
 .head-container {
     background: rgba(255, 144, 14, 0.1);
@@ -60,27 +71,65 @@
     margin: 25px;
 }
 
-.Explore-btn {
-    width: 180px;
-    height: 64px;
-    margin-bottom: 25px;
-    background-color: #FF900E;
-    color: aliceblue;
-    font-size: 20px;
-    border-style: none;
-    border-radius: 10px;
-}
+
 
 .header-img {
     height: 700px;
 }
 
 /*--------------- header articel style end --------------*/
+
+/*--------------- media style start --------------*/
+
+/* ---------------section-1 style--------------  */
+.section-1 {
+    display: flex;
+    margin: 45px 240PX;
+}
+
+.img-div {
+    width: 50%;
+    margin-right: 10PX;
+}
+
+.info-div {
+    margin: 25vh 10PX;
+}
+
+.info-div h1 {
+    font-weight: 500;
+    font-size: 28px;
+    color: #727272;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+#span-1 {
+    color: #131313;
+}
+
+#span-2 {
+    color: #FF900E;
+}
+
+.info-div p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+    text-align: left;
+}
+
+
+
 @media only screen and (max-width: 688px) {
+
+    /* ------- header style start ----------- */
     .fst-container {
         padding: 0px;
     }
 
+    /* -------- nav style start ---------- */
     .nav-menu {
         display: flex;
         flex-direction: column;
@@ -104,15 +153,33 @@
     .arteicel-div h1 {
         font-size: 30px;
     }
+
     .arteicel-div p {
         font-size: 10px;
         color: #131313;
         /* margin: 25px; */
     }
-    .header-img{
+
+    .header-img {
         height: 100%;
     }
+
     .header-img img {
         width: 100%;
+    }
+
+    /* ------- header style END ----------- */
+
+    /* ------- Main style start ----------- */
+
+    /* ------- section-1 style start ----------- */
+    .section-1 {
+        display: flex;
+        margin: 20px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .info-div{
+        margin: 20px;
     }
 }
